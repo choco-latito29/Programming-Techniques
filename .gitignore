@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos Virtuales
+venv/
+.venv/
+env/
+.env/
+
+# Archivos de configuración de IDEs
+.idea/
+.vscode/
+
+# Archivos de Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Exclusiones específicas del proyecto (como pediste)
+Eva-C1-02-S07-TDP-.pdf
+temas.txt
+
+# Archivos comprimidos (no suelen subirse)
+*.zip
+*.rar
