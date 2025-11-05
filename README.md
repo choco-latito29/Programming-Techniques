@@ -183,7 +183,7 @@ Si quieres probar alguno de los scripts:
     ```
 2.  **Navega a la carpeta:**
     ```bash
-    cd PROGRAMMING-TECHNIQUES/Week09
+    cd PROGRAMMING-TECHNIQUES/Week 09
     ```
 3.  **Ejecuta el script que desees:**
     ```bash
