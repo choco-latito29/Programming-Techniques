@@ -1,4 +1,12 @@
-# 📦 Técnicas de Programación (Programming Techniques) 🐍✨
+# 📦 Programming Techniques 🐍✨
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Hecho_con-Python-ff69b4?style=flat-square&labelColor=555&logo=python&logoColor=white" alt="Hecho con Python">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&labelColor=555&logo=python&logoColor=white" alt="Versión de Python">
+  <img src="https://img.shields.io/badge/Estado-En_Progreso-yellow?style=flat-square&labelColor=555" alt="Estado del proyecto">
+  <img src="https://img.shields.io/badge/Mantenido-SÍ-brightgreen?style=flat-square&labelColor=555" alt="Mantenido">
+  <img src="https://img.shields.io/badge/Licencia-MIT-lightgrey?style=flat-square&labelColor=555" alt="Licencia MIT">
+</p>
 
 ¡Hola y bienvenido/a! 🌸 Este repositorio es mi portafolio personal del curso **Técnicas de Programación**. Aquí encontrarás un viaje, semana a semana, a través de todos los conceptos, ejercicios y proyectos que he desarrollado.
 
