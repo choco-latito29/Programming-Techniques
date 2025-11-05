@@ -1,11 +1,11 @@
 # 📦 Programming Techniques 🐍✨
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Hecho_con-Python-ff69b4?style=flat-square&labelColor=555&logo=python&logoColor=white" alt="Hecho con Python">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&labelColor=555&logo=python&logoColor=white" alt="Versión de Python">
-  <img src="https://img.shields.io/badge/Estado-En_Progreso-yellow?style=flat-square&labelColor=555" alt="Estado del proyecto">
-  <img src="https://img.shields.io/badge/Mantenido-SÍ-brightgreen?style=flat-square&labelColor=555" alt="Mantenido">
-  <img src="https://img.shields.io/badge/Licencia-MIT-lightgrey?style=flat-square&labelColor=555" alt="Licencia MIT">
+  <img src="https://img.shields.io/badge/Hecho_con-Python-ff69b4?style=for-the-badge&labelColor=555&logo=python&logoColor=white" alt="Hecho con Python">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&labelColor=555&logo=python&logoColor=white" alt="Versión de Python">
+  <img src="https://img.shields.io/badge/Estado-En_Progreso-yellow?style=for-the-badge&labelColor=555" alt="Estado del proyecto">
+  <img src="https://img.shields.io/badge/Mantenido-SÍ-brightgreen?style=for-the-badge&labelColor=555" alt="Mantenido">
+  <img src="https://img.shields.io/badge/Licencia-MIT-lightgrey?style=for-the-badge&labelColor=555" alt="Licencia MIT">
 </p>
 
 ¡Hola y bienvenido/a! 🌸 Este repositorio es mi portafolio personal del curso **Técnicas de Programación**. Aquí encontrarás un viaje, semana a semana, a través de todos los conceptos, ejercicios y proyectos que he desarrollado.
@@ -27,7 +27,7 @@ Este proyecto está construido 100% con:
 Aquí está el desglose completo de todos los scripts y ejercicios, organizados por semana.
 
 <details>
-<summary><strong>📂 Week 1 - Fundamentos de Python</strong></summary>
+<summary><strong>📂 Week 01 - Fundamentos de Python</strong></summary>
   <ul>
     <li>📜 caracter.py</li>
     <li>📜 concatenacion.py</li>
@@ -44,7 +44,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 2 - Estructuras de Datos</strong></summary>
+<summary><strong>📂 Week 02 - Estructuras de Datos</strong></summary>
   <ul>
     <li>📜 diccionario.py</li>
     <li>📜 formatCadena.py</li>
@@ -57,7 +57,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 3 - Flujo Selectivo</strong></summary>
+<summary><strong>📂 Week 03 - Flujo Selectivo</strong></summary>
   <ul>
     <li>📜 gasolinera.py</li>
     <li>📜 repetitiva.py</li>
@@ -69,7 +69,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 4 - Lógica y Condicionales</strong></summary>
+<summary><strong>📂 Week 04 - Lógica y Condicionales</strong></summary>
   <ul>
     <li>📜 calculadora.py</li>
     <li>📜 cambio.py</li>
@@ -80,7 +80,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 5 - Estructuras Selectivas (Anidadas y Múltiples)</strong></summary>
+<summary><strong>📂 Week 05 - Estructuras Selectivas (Anidadas y Múltiples)</strong></summary>
   <ul>
     <li>📜 barco.py</li>
     <li>📜 credito.py</li>
@@ -99,7 +99,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 6 - Flujo Repetitivo (While & For)</strong></summary>
+<summary><strong>📂 Week 06 - Flujo Repetitivo (While & For)</strong></summary>
   <ul>
     <li>📜 countLeters.py</li>
     <li>📜 repetitivaDesde.py</li>
@@ -115,7 +115,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 7 - Contadores y Acumuladores</strong></summary>
+<summary><strong>📂 Week 07 - Contadores y Acumuladores</strong></summary>
   <ul>
     <li>📜 contadorAcumulador.py</li>
     <li>📜 programaDeReservas.py</li>
@@ -123,14 +123,14 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 8 - Aplicaciones Prácticas</strong></summary>
+<summary><strong>📂 Week 08 - Aplicaciones Prácticas</strong></summary>
   <ul>
     <li>📜 registroDeVentas.py</li>
   </ul>
 </details>
 
 <details>
-<summary><strong>📂 Week 9 - Funciones (Parámetros y Retorno)</strong></summary>
+<summary><strong>📂 Week 09 - Funciones (Parámetros y Retorno)</strong></summary>
   <ul>
     <li>📜 ecuaciones.py</li>
     <li>📜 fuincionQueDevuelveSinArgumentos.py</li>
@@ -183,7 +183,7 @@ Si quieres probar alguno de los scripts:
     ```
 2.  **Navega a la carpeta:**
     ```bash
-    cd PROGRAMMING-TECHNIQUES/Week9
+    cd PROGRAMMING-TECHNIQUES/Week09
     ```
 3.  **Ejecuta el script que desees:**
     ```bash
@@ -196,4 +196,4 @@ Si quieres probar alguno de los scripts:
 
 ¡Gracias por visitar mi proyecto! 💖
 
-- **GitHub:** [@choco-latito29](https://github.com/choco-latito29)
+- **GitHub:** [𝒞𝒽𝑜𝒸𝑜](https://github.com/choco-latito29)
