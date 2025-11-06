@@ -160,14 +160,18 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 <details>
 <summary><strong>📂 Week 11 - Paquetes y Módulos</strong></summary>
   <ul>
-    <li>📂 Package and Module
+    <li>📂 Bookshops (Paquete)
       <ul>
-        <li>📂 Bookshops</li>
-        <li>📜 calcular.py</li>
-        <li>📜 ecuancionRecursiva.py</li>
-        <li>📜 ventaLibreria.py</li>
+        <li>📜 __init__.py</li>
+        <li>📜 lecturaDatos.py</li>
+        <li>📜 operacionesAritmeticas.py</li>
+        <li>📜 recursivas.py</li>
+        <li>📜 utilitarios.py</li>
       </ul>
     </li>
+    <li>📜 calcular.py (Programa principal)</li>
+    <li>📜 ecuancionRecursiva.py (Programa principal)</li>
+    <li>📜 ventaLibreria.py (Programa principal)</li>
   </ul>
 </details>
 
