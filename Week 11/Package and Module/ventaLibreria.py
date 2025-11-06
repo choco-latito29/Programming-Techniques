@@ -1,5 +1,6 @@
 import Bookshops.utilitarios as util
 import Bookshops.operacionesAritmeticas as calculadora
+import Bookshops.lecturaDatos as lector
 
 global montMasc, contFem, contTotalClien, cantMascMayMil, acumTotalVentas, acumVentasFem
 global montoPago, montoBruto, montoBono, montoDcto
@@ -25,55 +26,26 @@ def procesar():
     global montoPago, montoBruto, montoBono, montoDcto
 
     nombreProd = input("Ingrese el nombre del producto: ")
-
-    while True:
-        precioProd = float(input("Ingrese el precio del producto: "))
-
-        if (precioProd <= 0):
-            print("[ERROR] Vuelva a ingresar")
-        else:
-            break
-
-    while True:
-        cantidadProd = int(input("Ingrese la cantidad del producto: "))
-
-        if (cantidadProd <= 0):
-            print("[ERROR] Vuelva a ingresar")
-        else:
-            break
-
-    while True:
-        porentajecDcto = float(input("Ingrese el porcentaje de descuento: "))
-
-        if (porentajecDcto <= 0):
-            print("[ERROR] Vuelva a ingresar")
-        else:
-            break
-
-    while True:
-        genero = (input("Ingrese el genero: "))
-        generoMayus = genero.upper()
-
-        if (generoMayus != 'F' and generoMayus != 'M'):
-            print("[ERROR] Vuelva a ingresar")
-        else:
-            break
+    precioProd = lector.leerFloatPositivo("Ingrese el precio del producto: ")
+    cantidadProd = lector.leerIntPositivo("Ingrese la cantidad del producto: ")
+    porentajecDcto = lector.leerFloatPositivo("Ingrese el porcentaje de descuento: ")
+    generoMayus = lector.leerGenero("Ingrese el genero (F/M): ")
 
     match generoMayus:
         case 'M':
             contMasc = contMasc + 1
 
             bono = 0.18
+            dcto = 0.2 
 
             if (cantidadProd <= 10):
                 dcto = 0.2
             else:
                 dcto = 0.5
-
         case 'F':
             contFem = contFem + 1
-
             bono = 0.25
+            dcto = 0.3
 
             if (cantidadProd <= 10):
                 dcto = 0.3
@@ -107,7 +79,7 @@ def menu():
     print("3. Salir")
 
     while True:
-        op = int(input("Ingrese una opcion del menu: "))
+        op = lector.leerOpcionMenu("Ingrese una opcion del menu: ", 1, 3)
 
         if (op < 1 or op > 3):
             print("[ERROR] Vuelva a ingresar")
