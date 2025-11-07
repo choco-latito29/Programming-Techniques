@@ -2,9 +2,6 @@ import Bookshops.utilitarios as util
 import Bookshops.operacionesAritmeticas as calculadora
 import Bookshops.lecturaDatos as lector
 
-global montMasc, contFem, contTotalClien, cantMascMayMil, acumTotalVentas, acumVentasFem
-global montoPago, montoBruto, montoBono, montoDcto
-
 contMasc = 0
 contFem = 0
 contTotalClien = 0
@@ -23,7 +20,6 @@ def reportar():
 
 def procesar():
     global contMasc, contFem, contTotalClien, cantMascMayMil, acumTotalVentas, acumVentasFem
-    global montoPago, montoBruto, montoBono, montoDcto
 
     nombreProd = input("Ingrese el nombre del producto: ")
     precioProd = lector.leerFloatPositivo("Ingrese el precio del producto: ")
@@ -54,7 +50,7 @@ def procesar():
 
     montoBruto = calculadora.multiplicar(precioProd, cantidadProd)
     montoBono = calculadora.multiplicar(montoBruto, bono)
-    montoDcto = calculadora.multiplicar(montoBruto, porentajecDcto)
+    montoDcto = calculadora.multiplicar(montoBruto, porentajecDcto / 100)
     montoPago = calculadora.sumar(calculadora.restar(montoBruto, montoDcto), montoBono)
 
     contTotalClien = contTotalClien + 1
@@ -78,14 +74,8 @@ def menu():
     print("2. Reportar")
     print("3. Salir")
 
-    while True:
-        op = lector.leerOpcionMenu("Ingrese una opcion del menu: ", 1, 3)
+    op = lector.leerOpcionMenu("Ingrese una opcion del menu: ", 1, 3)
 
-        if (op < 1 or op > 3):
-            print("[ERROR] Vuelva a ingresar")
-        else:
-            break
-    
     match op:
         case 1:
             procesar()
@@ -106,7 +96,7 @@ def menu():
             if (rptaMayus == 'S'):
                 util.salir()
             else:
-                menu()
+                op = 0 
 
     return op
 
