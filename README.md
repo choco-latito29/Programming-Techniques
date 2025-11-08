@@ -10,6 +10,8 @@
 
 ¡Hola y bienvenido/a! 🌸 Este repositorio es mi portafolio personal del curso **Técnicas de Programación**. Aquí encontrarás un viaje, semana a semana, a través de todos los conceptos, ejercicios y proyectos que he desarrollado.
 
+**Estado del Proyecto:** ¡Curso en progreso! ⏳ Quedan 4 semanas para la culminación en la Semana 16.
+
 Desde los fundamentos básicos de Python hasta conceptos más complejos como la recursividad y los módulos. ¡Espero que disfrutes el recorrido!
 
 ---
