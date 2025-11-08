@@ -175,6 +175,21 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
   </ul>
 </details>
 
+<details>
+<summary><strong>📂 Week 12 - Paquetes y Módulos (II)</strong></summary>
+  <ul>
+    <li>📂 Electricidad (Paquete)
+      <ul>
+        <li>📜 __init__.py</li>
+        <li>📜 lecturaDatos.py</li>
+        <li>📜 tarifas.py</li>
+        <li>📜 utilitarios.py</li>
+      </ul>
+    </li>
+    <li>📜 programaPrincipal.py (App Control Eléctrico)</li>
+  </ul>
+</details>
+
 ---
 
 ## 🚀 ¿Cómo usar este repositorio?
