@@ -178,7 +178,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 <details>
 <summary><strong>📂 Week 12 - Paquetes y Módulos (II)</strong></summary>
   <ul>
-    <li>📂 Electricidad (Paquete)
+    <li>📂 Bookshops (Paquete)
       <ul>
         <li>📜 __init__.py</li>
         <li>📜 lecturaDatos.py</li>
