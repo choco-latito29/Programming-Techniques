@@ -48,13 +48,13 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 <details>
 <summary><strong>📂 Week 02 - Estructuras de Datos</strong></summary>
   <ul>
-    <li>📜 diccionario.py</li>
-    <li>📜 formatCadena.py</li>
-    <li>📜 incomedata.py</li>
-    <li>📜 lista.py</li>
-    <li>📜 manageCadenas.py</li>
-    <li>📜 porcentaje.py</li>
-    <li>📜 promedio.py</li>
+    <li>📜 dictionary.py</li>
+    <li>📜 formatting.py</li>
+    <li>📜 data_input.py</li>
+    <li>📜 list.py</li>
+    <li>📜 string_methods.py</li>
+    <li>📜 percentage.py</li>
+    <li>📜 average.py</li>
   </ul>
 </details>
 
