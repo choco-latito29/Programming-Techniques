@@ -31,17 +31,17 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 <details>
 <summary><strong>📂 Week 01 - Fundamentos de Python</strong></summary>
   <ul>
-    <li>📜 caracter.py</li>
-    <li>📜 concatenacion.py</li>
-    <li>📜 ecuaciones.py</li>
+    <li>📜 character.py</li>
+    <li>📜 concatenation.py</li>
+    <li>📜 equations.py</li>
     <li>📜 eval.py</li>
     <li>📜 input.py</li>
-    <li>📜 operadores.py</li>
-    <li>📜 repeticion.py</li>
-    <li>📜 sombreada.py</li>
-    <li>📜 terreno.py</li>
-    <li>📜 triangulo.py</li>
-    <li>📜 varios.py</li>
+    <li>📜 operators.py</li>
+    <li>📜 repetition.py</li>
+    <li>📜 shaded_area.py</li>
+    <li>📜 trapezoid_area.py</li>
+    <li>📜 triangle.py</li>
+    <li>📜 arithmetic.py</li>
   </ul>
 </details>
 
@@ -160,7 +160,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 11 - Paquetes y Módulos</strong></summary>
+<summary><strong>📂 Week 11 - Paquetes y Módulos (I)</strong></summary>
   <ul>
     <li>📂 Bookshops (Paquete)
       <ul>
@@ -180,7 +180,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 <details>
 <summary><strong>📂 Week 12 - Paquetes y Módulos (II)</strong></summary>
   <ul>
-    <li>📂 Bookshops (Paquete)
+    <li>📂 Electricidad (Paquete)
       <ul>
         <li>📜 __init__.py</li>
         <li>📜 lecturaDatos.py</li>
@@ -200,11 +200,11 @@ Si quieres probar alguno de los scripts:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone https://github.com/choco-latito29/PROGRAMMING-TECHNIQUES.git
+    git clone [https://github.com/choco-latito29/PROGRAMMING-TECHNIQUES.git](https://github.com/choco-latito29/PROGRAMMING-TECHNIQUES.git)
     ```
 2.  **Navega a la carpeta:**
     ```bash
-    cd PROGRAMMING-TECHNIQUES/Week 09
+    cd PROGRAMMING-TECHNIQUES/Week09
     ```
 3.  **Ejecuta el script que desees:**
     ```bash

@@ -1,9 +1,12 @@
-print("\n***Ejemplo 6: Uso de Eval****\n") # Titulo del programa
-# Ejemplo 6: Los valores de variable 1 y variable 2 son caracteres y con eval le convierte a númerico
+print("\n***Example 6: Using eval()****\n") # Program Title
 
-variable1 = eval(input("Ingrese el valor de variable a: ")) # con eval lo convierte a número
-variable2 = eval(input("Ingrese el valor de variable b: ")) # con eval lo convierte a número
-variable3 = variable1 + variable2 # suma las variables
+# eval() interprets the input string as Python code.
+# If the user types "10", eval() runs it and gets the integer 10.
+variable1 = eval(input("Enter the value of variable a: "))
+variable2 = eval(input("Enter the value of variable b: "))
 
-print(f"El resultado es: {variable3}") # Ahora si se suma, usa coma
-print(f"El resultado es: {str(variable3)}") # con str() se convierte la variable c en cadena.
+# Because the variables are now numbers, the '+' operator performs addition
+variable3 = variable1 + variable2
+
+print(f"The result is: {variable3}")
+print(f"The result as a string is: {str(variable3)}")
