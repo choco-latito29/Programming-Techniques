@@ -73,11 +73,11 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 <details>
 <summary><strong>📂 Week 04 - Lógica y Condicionales</strong></summary>
   <ul>
-    <li>📜 calculadora.py</li>
-    <li>📜 cambio.py</li>
-    <li>📜 categoria&Proyecto.py</li>
-    <li>📜 enteros.py</li>
-    <li>📜 primo.py</li>
+    <li>📜 calculator.py</li>
+    <li>📜 exchange.py</li>
+    <li>📜 category_project.py</li>
+    <li>📜 integer_compare.py</li>
+    <li>📜 prime_check.py</li>
   </ul>
 </details>
 
