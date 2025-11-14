@@ -61,12 +61,12 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 <details>
 <summary><strong>📂 Week 03 - Flujo Selectivo</strong></summary>
   <ul>
-    <li>📜 gasolinera.py</li>
-    <li>📜 repetitiva.py</li>
-    <li>📜 restaurante.py</li>
-    <li>📜 selectiva.py</li>
-    <li>📜 sueldo.py</li>
-    <li>📜 ventaAuto.py</li>
+    <li>📜 gas_station.py</li>
+    <li>📜 fibonacci.py</li>
+    <li>📜 restaurant.py</li>
+    <li>📜 conditional.py</li>
+    <li>📜 salary.py</li>
+    <li>📜 car_sale.py</li>
   </ul>
 </details>
 
