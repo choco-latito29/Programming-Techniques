@@ -31,7 +31,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 <details>
 <summary><strong>📂 Week 01 - Fundamentos de Python</strong></summary>
   <ul>
-    <li>📜 character.py</li>
+    <li>📜 string_multiplication_error.py</li>
     <li>📜 concatenation.py</li>
     <li>📜 equations.py</li>
     <li>📜 eval.py</li>
@@ -59,7 +59,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 03 - Flujo Selectivo</strong></summary>
+<summary><strong>📂 Week 03 - Selective Flow</strong></summary>
   <ul>
     <li>📜 gas_station.py</li>
     <li>📜 fibonacci.py</li>
@@ -71,7 +71,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 04 - Lógica y Condicionales</strong></summary>
+<summary><strong>📂 Week 04 - Logic and Conditionals</strong></summary>
   <ul>
     <li>📜 calculator.py</li>
     <li>📜 exchange.py</li>
@@ -82,7 +82,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 05 - Estructuras Selectivas (Anidadas y Múltiples)</strong></summary>
+<summary><strong>📂 Week 05 - Selective Structures (Nested and Chained)</strong></summary>
   <ul>
     <li>📜 ship.py</li>
     <li>📜 academic_year.py</li>
@@ -101,7 +101,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 06 - Flujo Repetitivo (While & For)</strong></summary>
+<summary><strong>📂 Week 06 - Repetitive Flow (While & For)</strong></summary>
   <ul>
     <li>📜 string_counting.py</li>
     <li>📜 factorial_loop.py</li>
@@ -117,7 +117,7 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 07 - Contadores y Acumuladores</strong></summary>
+<summary><strong>📂 Week 07 - Counters and Accumulators</strong></summary>
   <ul>
     <li>📜 counter_accumulator.py</li>
     <li>📜 reservations.py</li>
@@ -125,9 +125,9 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 08 - Aplicaciones Prácticas</strong></summary>
+<summary><strong>📂 Week 08 - Practical Applications</strong></summary>
   <ul>
-    <li>📜 registroDeVentas.py</li>
+    <li>📜 sales_registry.py</li>
   </ul>
 </details>
 
