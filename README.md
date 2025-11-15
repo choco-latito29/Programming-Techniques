@@ -119,8 +119,8 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 <details>
 <summary><strong>📂 Week 07 - Contadores y Acumuladores</strong></summary>
   <ul>
-    <li>📜 contadorAcumulador.py</li>
-    <li>📜 programaDeReservas.py</li>
+    <li>📜 counter_accumulator.py</li>
+    <li>📜 reservations.py</li>
   </ul>
 </details>
 
