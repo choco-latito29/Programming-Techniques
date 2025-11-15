@@ -24,3 +24,6 @@ Thumbs.db
 *.exe
 *.zip
 *.rar
+
+# Archivos de práctica personal
+practica.py
