@@ -103,16 +103,16 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 <details>
 <summary><strong>📂 Week 06 - Flujo Repetitivo (While & For)</strong></summary>
   <ul>
-    <li>📜 countLeters.py</li>
-    <li>📜 repetitivaDesde.py</li>
-    <li>📜 repetitivaFor.py</li>
-    <li>📜 repetitivaMenu.py</li>
-    <li>📜 repetitivaMientras.py</li>
-    <li>📜 repetitivaSubMenu.py</li>
-    <li>📜 sumarDigitos.py</li>
-    <li>📜 turismo.py</li>
-    <li>📜 validacionDatosRepetitivos.py</li>
-    <li>📜 ventasMenu.py</li>
+    <li>📜 string_counting.py</li>
+    <li>📜 factorial_loop.py</li>
+    <li>📜 for_loop_validation.py</li>
+    <li>📜 menu_loop.py</li>
+    <li>📜 while_loop.py</li>
+    <li>📜 submenu_loop.py</li>
+    <li>📜 sum_digits.py</li>
+    <li>📜 tourism.py</li>
+    <li>📜 validation_loop.py</li>
+    <li>📜 sales_menu.py</li>
   </ul>
 </details>
 
@@ -200,7 +200,7 @@ Si quieres probar alguno de los scripts:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/choco-latito29/PROGRAMMING-TECHNIQUES.git](https://github.com/choco-latito29/PROGRAMMING-TECHNIQUES.git)
+    git clone https://github.com/choco-latito29/PROGRAMMING-TECHNIQUES.git
     ```
 2.  **Navega a la carpeta:**
     ```bash
