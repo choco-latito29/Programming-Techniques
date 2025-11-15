@@ -1,23 +1,27 @@
-print("\n========== INGRESO DE DATOS ==========")
+print("\n========== DATA ENTRY ==========")
 
-num = eval(input("Ingrese un número para una vocal: "))
+# 'eval()' will convert the user's input string "3" into the integer 3
+num = eval(input("Enter a number for a vowel: "))
 
+# 1. Validation check: First, check if the number is in the valid range
 if (num >= 1 and num <= 5):
 
+    # 2. 'match' block: Only runs if the 'if' check passed
     match num:
         case 1:
-            print("Es la vocal a")
-        
+            print("It's vowel a")
+
         case 2:
-            print("Es la vocal e")
-        
+            print("It's vowel e")
+
         case 3:
-            print("Es la vocal i")
-        
+            print("It's vowel i")
+
         case 4:
-            print("Es la vocal o")
-        
+            print("It's vowel o")
+
         case 5:
-            print("Es la vocal u")
+            print("It's vowel u")
 else:
-    print("ERROR, debe ingresar del 1 al 5")
+    # 3. 'else' block: Runs if the 'if' check failed
+    print("ERROR, you must enter a number from 1 to 5")

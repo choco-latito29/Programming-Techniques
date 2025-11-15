@@ -84,19 +84,19 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 <details>
 <summary><strong>📂 Week 05 - Estructuras Selectivas (Anidadas y Múltiples)</strong></summary>
   <ul>
-    <li>📜 barco.py</li>
-    <li>📜 credito.py</li>
-    <li>📜 notas.py</li>
-    <li>📜 restaurant.py</li>
-    <li>📜 selecAnidada.py</li>
-    <li>📜 selecCompuesta.py</li>
-    <li>📜 selecEncadenada.py</li>
-    <li>📜 selecMenu.py</li>
-    <li>📜 selecMultiple.py</li>
-    <li>📜 selecsimple.py</li>
-    <li>📜 selecSubMenu.py</li>
-    <li>📜 validata.py</li>
-    <li>📜 venta.py</li>
+    <li>📜 ship.py</li>
+    <li>📜 academic_year.py</li>
+    <li>📜 grades.py</li>
+    <li>📜 restaurant_bill.py</li>
+    <li>📜 nested_conditional.py</li>
+    <li>📜 compound_conditional.py</li>
+    <li>📜 chained_conditional.py</li>
+    <li>📜 menu.py</li>
+    <li>📜 multiple_selection.py</li>
+    <li>📜 simple_conditional.py</li>
+    <li>📜 submenu.py</li>
+    <li>📜 validate.py</li>
+    <li>📜 sale.py</li>
   </ul>
 </details>
 

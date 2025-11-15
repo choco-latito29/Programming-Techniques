@@ -1,26 +1,31 @@
-print("\n========== CÁLCULO DE CUENTA DE RESTAURANTE ==========\n")
+print("\n========== RESTAURANT BILL CALCULATION ==========\n")
 
-consumo = float(input("Ingrese el monto del consumo (S/.): "))
+consumption = float(input("Enter the consumption amount (S/.): "))
 
-if (consumo > 0):
-    
-    if consumo <= 30:
-        dcto = 0.10
+# 1. Validate that consumption is a positive number
+if (consumption > 0):
+
+    # 2. Determine the discount percentage
+    if consumption <= 30:
+        discount_rate = 0.10  # 10% discount
     else:
-        dcto = 0.20
+        discount_rate = 0.20  # 20% discount
 
-    montoDcto = consumo * dcto
-    subtotal = consumo - montoDcto
-    impuesto = subtotal * 0.18
-    totalPagar = subtotal + impuesto
+    # 3. Calculate all values
+    discount_amount = consumption * discount_rate
+    subtotal = consumption - discount_amount
+    tax = subtotal * 0.18  # 18% tax
+    total_to_pay = subtotal + tax
 
-    print("\n========== RECIBO DETALLADO ==========\n")
-    print(f"Consumo:          S/. {consumo:.2f}")
-    print(f"Descuento:        S/. {montoDcto:.2f}")
+    # 4. Print the detailed receipt
+    print("\n========== DETAILED RECEIPT ==========\n")
+    print(f"Consumption:      S/. {consumption:.2f}")
+    print(f"Discount:         S/. {discount_amount:.2f}")
     print(f"Subtotal:         S/. {subtotal:.2f}")
-    print(f"Impuesto (18%):   S/. {impuesto:.2f}")
+    print(f"Tax (18%):        S/. {tax:.2f}")
     print("---------------------------------------")
-    print(f"IMPORTE A PAGAR:  S/. {totalPagar:10.2f}")
+    print(f"AMOUNT TO PAY:    S/. {total_to_pay:10.2f}")
 
 else:
-    print("[ERROR] El monto del consumo debe ser mayor a cero.")
+    # This 'else' catches non-positive numbers from the first 'if'
+    print("[ERROR] The consumption amount must be greater than zero.")
