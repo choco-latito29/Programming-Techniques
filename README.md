@@ -147,15 +147,15 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 10 - Recursividad</strong></summary>
+<summary><strong>📂 Week 10 - Recursion and Advanced Functions</strong></summary>
   <ul>
-    <li>📜 clausura.py</li>
-    <li>📜 funcionAnonimaLambda.py</li>
-    <li>📜 funcionInterior.py</li>
+    <li>📜 closure.py</li>
+    <li>📜 lambda.py</li>
+    <li>📜 inner_function.py</li>
     <li>📜 hanoi.py</li>
-    <li>📜 recursividad.py</li>
-    <li>📜 recursividadDelFactorial.py</li>
-    <li>📜 ventaModuloRecursivo.py</li>
+    <li>📜 recursion.py</li>
+    <li>📜 factorial_main.py</li>
+    <li>📜 recursive_sales_menu.py</li>
   </ul>
 </details>
 
