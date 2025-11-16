@@ -132,17 +132,17 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 09 - Funciones (Parámetros y Retorno)</strong></summary>
+<summary><strong>📂 Week 09 - Functions (Parameters and Return)</strong></summary>
   <ul>
-    <li>📜 ecuaciones.py</li>
-    <li>📜 fuincionQueDevuelveSinArgumentos.py</li>
-    <li>📜 funcionArgumento.py</li>
-    <li>📜 funcionConArgumento.py</li>
-    <li>📜 funcionQueDevuelveConArgumento.py</li>
-    <li>📜 funcionSinArgumentos.py</li>
-    <li>📜 menuHerencia.py</li>
-    <li>📜 parametro&argumento.py</li>
-    <li>📜 propuestoSueldo.py</li>
+    <li>📜 equations.py</li>
+    <li>📜 function_call_error.py</li>
+    <li>📜 function_with_arguments.py</li>
+    <li>📜 function_with_args.py</li>
+    <li>📜 return_with_arguments.py</li>
+    <li>📜 function_without_arguments.py</li>
+    <li>📜 inheritance_menu.py</li>
+    <li>📜 parameter_argument.py</li>
+    <li>📜 proposed_salary.py</li>
   </ul>
 </details>
 
@@ -208,7 +208,7 @@ Si quieres probar alguno de los scripts:
     ```
 3.  **Ejecuta el script que desees:**
     ```bash
-    python propuestoSueldo.py
+    python proposed_salary.py
     ```
 
 ---

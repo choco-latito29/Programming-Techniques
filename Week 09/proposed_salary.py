@@ -1,8 +1,15 @@
+# --- File: proposed_salary.py ---
+# This program is a complete menu-driven application for calculating salary.
+# NOTE: This code contains an intentional TypeError for learning purposes.
+
 def leerDatoF():
+    # 1. DEFINITION: This function is defined to accept ZERO arguments.
     dato = float(input(""))
     return dato
 
+
 def DeterminaPorcentaje(sueldo):
+    """Calculates the bonus percentage based on the salary."""
     if sueldo >= 5001:
         porcentaje = 0.10
     elif sueldo >= 3501:
@@ -13,7 +20,9 @@ def DeterminaPorcentaje(sueldo):
         porcentaje = 0.25
     return porcentaje
 
+
 def CalculaSueldoTotal(sueldo_base):
+    """Calculates and prints the final salary report."""
     porcentaje = DeterminaPorcentaje(sueldo_base)
     monto_aumento = sueldo_base * porcentaje
     sueldo_total = sueldo_base + monto_aumento
@@ -25,16 +34,25 @@ def CalculaSueldoTotal(sueldo_base):
     print(f"Sueldo Total \t\t: S/. {sueldo_total:,.2f}")
     print("=" * 35)
 
+
 def procesarCalculo():
+    """Contains the logic for the calculation process."""
     while True:
+        # --- ERROR OCCURS HERE ---
+        # 2. CALL: The function 'leerDatoF' is called WITH ONE argument.
+        # This will cause a TypeError because the definition (step 1)
+        # expects ZERO arguments.
         sueldo = leerDatoF("Ingrese el sueldo base del trabajador: ")
+
         if sueldo > 0:
             CalculaSueldoTotal(sueldo)
             break
         else:
             print("[ERROR] El sueldo debe ser mayor a 0. Vuelva a ingresar.")
 
+
 def menu():
+    """Main menu loop."""
     while True:
         print("\n========== MENU PRINCIPAL ==========")
         print("1. Procesar Cálculo de Sueldo")
@@ -49,7 +67,11 @@ def menu():
                 print("Saliendo del programa...")
                 break
 
+
 def ejecutar():
+    """Executor function to start the menu."""
     menu()
 
+
+# --- Start the program ---
 ejecutar()
