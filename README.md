@@ -10,7 +10,7 @@
 
 ¡Hola y bienvenido/a! 🌸 Este repositorio es mi portafolio personal del curso **Técnicas de Programación**. Aquí encontrarás un viaje, semana a semana, a través de todos los conceptos, ejercicios y proyectos que he desarrollado.
 
-**Estado del Proyecto:** ¡Curso en progreso! ⏳ Quedan 4 semanas para la culminación en la Semana 16.
+**Estado del Proyecto:** ¡Curso en progreso! ⏳ Quedan 3 semanas para la culminación en la Semana 16.
 
 Desde los fundamentos básicos de Python hasta conceptos más complejos como la recursividad y los módulos. ¡Espero que disfrutes el recorrido!
 
@@ -178,17 +178,32 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
 </details>
 
 <details>
-<summary><strong>📂 Week 12 - Paquetes y Módulos (II)</strong></summary>
+<summary><strong>📂 Week 12 - Packages and Modules (II)</strong></summary>
   <ul>
-    <li>📂 Electricidad (Paquete)
+    <li>📂 Bookshops (Package)
       <ul>
         <li>📜 __init__.py</li>
-        <li>📜 lecturaDatos.py</li>
-        <li>📜 tarifas.py</li>
-        <li>📜 utilitarios.py</li>
+        <li>📜 data_input.py</li>
+        <li>📜 rates.py</li>
+        <li>📜 utilities.py</li>
       </ul>
     </li>
-    <li>📜 programaPrincipal.py (App Control Eléctrico)</li>
+    <li>📜 electricity_app.py (Main program)</li>
+  </ul>
+</details>
+
+<details>
+<summary><strong>📂 Week 13 - Lists and Tuples</strong></summary>
+  <ul>
+    <li>📜 list_tuple_zip.py</li>
+    <li>📜 lists.py</li>
+    <li>📜 tuples.py</li>
+    <li>📜 course_list.py</li>
+    <li>📜 list_operations.py</li>
+    <li>📜 tuple_operations.py</li>
+    <li>📜 tuple_concatenation.py</li>
+    <li>📜 tuple_list_conversion.py</li>
+    <li>📜 list_tuple_menu.py</li>
   </ul>
 </details>
 
