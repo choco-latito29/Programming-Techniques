@@ -207,6 +207,15 @@ Aquí está el desglose completo de todos los scripts y ejercicios, organizados 
   </ul>
 </details>
 
+<details>
+<summary><strong>📂 Week 14 - Sets and Dictionaries</strong></summary>
+  <ul>
+    <li>📜 lottery_sets.py</li>
+    <li>📜 password_dictionary.py</li>
+    <li>📜 client_invoices.py</li>
+  </ul>
+</details>
+
 ---
 
 ## 🚀 ¿Cómo usar este repositorio?
